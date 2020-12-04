@@ -1,6 +1,7 @@
 let monDiv = document.createElement('div');
 monDiv.innerHTML = "Ce div a été ajouté en utilisant javascript";
-let premierDiv = document.getElementById('viewport').appendChild(monDiv);
+let premierDiv = document.getElementById('viewport');
+premierDiv.appendChild(monDiv);
 
 let monDiv2 = document.createElement('div');
 monDiv2.style.backgroundColor = "red";
